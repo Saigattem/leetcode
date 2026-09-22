@@ -1,14 +1,3 @@
-# class Solution:
-    # def maxArea(self, height: list[int]) -> int:
-    #     max_water=0
-    #     for i in range(len(height)):
-    #         for j in range(i+1,len(height)):
-    #             width=j-i
-    #             h=min(height[i],height[j])
-    #             area=width*h
-    #             if area>max_water:
-    #                 max_water=area
-    #     return max_water
 class Solution:
     def maxArea(self, height):
         left = 0
