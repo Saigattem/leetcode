@@ -11,11 +11,11 @@ class Solution:
             water = width * h
 
             if water > max_water:
-                max_water = water
+                max_water=water
 
             if height[left] < height[right]:
                 left += 1
             else:
-                right -= 1
+                right-=1
 
         return max_water
